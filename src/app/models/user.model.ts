@@ -1,6 +1,6 @@
 export class User {
-avatar : string = ""
 name : string = "Jean Dupond";
+avatar : string = ""
 location : string = "France";
 age : number = 40;
 hobbies : string = "🎨 Peinture, 🎸 Musique, 📚 Lecture";
