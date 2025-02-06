@@ -3,6 +3,10 @@ header {
     padding: 15px 0;
     text-align: center;
 }
+nav{
+    display:flex;
+    justify-content: space-around;
+}
 
 nav ul {
     list-style: none;
