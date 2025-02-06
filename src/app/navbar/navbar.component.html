@@ -5,7 +5,8 @@
             <li><a routerLink="/about" >About</a></li>
             <li><a routerLink="/contact" >Contact</a></li>
         </ul>
-        <app-search-bar />
+        <app-search-bar (searchButtonClicked) = "increaseCount()" />
+        click count : {{count}}
     </nav>
-</header>
+</header> 
 

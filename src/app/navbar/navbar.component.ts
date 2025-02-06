@@ -9,5 +9,8 @@ import { SearchBarComponent } from '../components/search-bar/search-bar.componen
   styleUrl: './navbar.component.css'
 })
 export class NavbarComponent {
-
+count: number = 0;
+increaseCount() {
+  this.count++;
+}
 }
