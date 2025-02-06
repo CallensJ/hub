@@ -16,8 +16,8 @@ constructor() {
   this.user1.name = "Jean Dujardin";
   this.user1.avatar = "";
   this.user1.location = "France";
-  this.user1.age = 40;
+  this.user1.age = 55;
   this.user1.hobbies = "🎨 Peinture, 🎸 Musique, 📚 Lecture";
-  this.user1.description = "super peintre super musicien et super orateur encore meilleur que je sais pas"
+  this.user1.description = "Acteur , chanteur, metteur en scene"
 }
 }
