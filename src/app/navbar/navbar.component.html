@@ -5,7 +5,13 @@
             <li><a routerLink="/about" >About</a></li>
             <li><a routerLink="/contact" >Contact</a></li>
         </ul>
-        <app-search-bar (searchButtonClicked) = "increaseCount()" />
+        <app-search-bar 
+        [search] = "search"
+        (searchButtonClicked) = "increaseCount()"
+        (searchChange)="search = $event"
+
+        />
+        Search : {{search}} <br />
         click count : {{count}}
     </nav>
 </header> 
